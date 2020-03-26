@@ -9,7 +9,12 @@
 import Foundation
 
 public class Service {
-    public func dothing() {
-        print("mmmmmmmmm")
+    
+    public init() {
+        print("wtf")
+    }
+    
+    public func dothing() -> String {
+        return "mmmmmmmmm"
     }
 }
